@@ -1,3 +1,3 @@
 [submodule "touch/app-touchr"]
 	path = touch/app-touchr
-	url = https://github.com/brunotavares/Touchr.git
+	url = git://github.com/brunotavares/Touchr.git
