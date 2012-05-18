@@ -1,0 +1,162 @@
+/* line 3, ../sass/app.scss */
+.login-view {
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #5775b5), color-stop(100%, #3f5d9b));
+  background-image: -webkit-radial-gradient(#5775b5, #3f5d9b);
+  background-image: -moz-radial-gradient(#5775b5, #3f5d9b);
+  background-image: -o-radial-gradient(#5775b5, #3f5d9b);
+  background-image: -ms-radial-gradient(#5775b5, #3f5d9b);
+  background-image: radial-gradient(#5775b5, #3f5d9b);
+  /*
+   * Logo
+   */
+  /*
+   * Textfields box
+   */
+  /**
+   * Buttons
+   */
+}
+/* line 9, ../sass/app.scss */
+.login-view .logo {
+  background: transparent url("../images/loginFacebookLogo.png") no-repeat center center;
+  background-size: 177px 41px;
+  width: 177px;
+  height: 41px;
+  margin: 2em auto;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 18, ../sass/app.scss */
+  .login-view .logo {
+    background-image: url("../images/loginFacebookLogo@2x.png");
+  }
+}
+/* line 26, ../sass/app.scss */
+.login-view .x-form {
+  margin-bottom: 1em;
+}
+/* line 29, ../sass/app.scss */
+.login-view .shadow {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  border: 1px solid #41598C;
+  -webkit-box-shadow: 0 1px 2px #666666 inset, 0 1px 1px #7f94bd;
+  -moz-box-shadow: 0 1px 2px #666666 inset, 0 1px 1px #7f94bd;
+  box-shadow: 0 1px 2px #666666 inset, 0 1px 1px #7f94bd;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+/* line 37, ../sass/app.scss */
+.login-view .x-field-text {
+  width: 14em;
+  background-color: #eeeff0;
+}
+/* line 40, ../sass/app.scss */
+.login-view .x-field-text .x-input-el::-webkit-input-placeholder {
+  color: #b3b3b3;
+}
+/* line 44, ../sass/app.scss */
+.login-view .email {
+  border-bottom: 1px solid #d3d3d4;
+  display: inline-block;
+  margin: 1px 1px 0 1px;
+  -webkit-border-radius: 0.5em 0.5em 0 0;
+  -moz-border-radius: 0.5em 0.5em 0 0;
+  -ms-border-radius: 0.5em 0.5em 0 0;
+  -o-border-radius: 0.5em 0.5em 0 0;
+  border-radius: 0.5em 0.5em 0 0;
+}
+/* line 50, ../sass/app.scss */
+.login-view .password {
+  border-top: 1px solid #f7f7f8;
+  margin: 0 1px 1px 1px;
+  -webkit-border-radius: 0 0 0.5em 0.5em;
+  -moz-border-radius: 0 0 0.5em 0.5em;
+  -ms-border-radius: 0 0 0.5em 0.5em;
+  -o-border-radius: 0 0 0.5em 0.5em;
+  border-radius: 0 0 0.5em 0.5em;
+}
+/* line 59, ../sass/app.scss */
+.login-view .login-btn {
+  width: 14em;
+  border: none;
+  margin-bottom: 6em;
+  min-height: 2.2em;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eaebec), color-stop(100%, #b9bfc7));
+  background-image: -webkit-linear-gradient(#eaebec, #b9bfc7);
+  background-image: -moz-linear-gradient(#eaebec, #b9bfc7);
+  background-image: -o-linear-gradient(#eaebec, #b9bfc7);
+  background-image: -ms-linear-gradient(#eaebec, #b9bfc7);
+  background-image: linear-gradient(#eaebec, #b9bfc7);
+  -webkit-box-shadow: 0 1px 1px #f2f2f2 inset, 0 1px 3px #444444;
+  -moz-box-shadow: 0 1px 1px #f2f2f2 inset, 0 1px 3px #444444;
+  box-shadow: 0 1px 1px #f2f2f2 inset, 0 1px 3px #444444;
+}
+/* line 66, ../sass/app.scss */
+.login-view .login-btn .x-button-label {
+  color: #565655;
+}
+/* line 69, ../sass/app.scss */
+.login-view .login-btn.x-button-pressing {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cfd1d4), color-stop(100%, #9da5b0));
+  background-image: -webkit-linear-gradient(#cfd1d4, #9da5b0);
+  background-image: -moz-linear-gradient(#cfd1d4, #9da5b0);
+  background-image: -o-linear-gradient(#cfd1d4, #9da5b0);
+  background-image: -ms-linear-gradient(#cfd1d4, #9da5b0);
+  background-image: linear-gradient(#cfd1d4, #9da5b0);
+}
+/* line 74, ../sass/app.scss */
+.login-view .signup-btn {
+  border-color: #3a517c;
+  font-size: .7em;
+  min-height: 2.5em;
+  margin-bottom: 0.8em;
+  padding: 0.6em 1em;
+  background-color: transparent;
+  -webkit-box-shadow: 0 1px 1px #7a8fb8 inset, 0 1px 1px #6074a0;
+  -moz-box-shadow: 0 1px 1px #7a8fb8 inset, 0 1px 1px #6074a0;
+  box-shadow: 0 1px 1px #7a8fb8 inset, 0 1px 1px #6074a0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.1)), color-stop(100%, transparent));
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.1), transparent);
+  background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.1), transparent);
+  background-image: -o-linear-gradient(rgba(255, 255, 255, 0.1), transparent);
+  background-image: -ms-linear-gradient(rgba(255, 255, 255, 0.1), transparent);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), transparent);
+}
+/* line 83, ../sass/app.scss */
+.login-view .signup-btn .x-button-label {
+  color: #FFF;
+}
+/* line 86, ../sass/app.scss */
+.login-view .signup-btn.x-button-pressing {
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: none;
+  -webkit-box-shadow: 0 1px 0.3em #333333 inset;
+  -moz-box-shadow: 0 1px 0.3em #333333 inset;
+  box-shadow: 0 1px 0.3em #333333 inset;
+}
+/* line 93, ../sass/app.scss */
+.login-view .help-btn {
+  font-size: .7em;
+  border: none;
+  background-image: none;
+  background-color: transparent;
+}
+/* line 98, ../sass/app.scss */
+.login-view .help-btn .x-button-label {
+  color: #819dc6;
+  font-weight: normal;
+}
+/* line 102, ../sass/app.scss */
+.login-view .help-btn.x-button-pressing .x-button-label {
+  color: #CCC;
+}
+/* line 106, ../sass/app.scss */
+.login-view .help-line {
+  border-top: 1px solid #819dc6;
+  width: 3em;
+  margin-bottom: 1em;
+}
