@@ -112,6 +112,40 @@ Ext.setup({
                 });
             }
         });
+        
+        //example 4: Ext.Anim
+        viewport.add({
+            xtype: 'button',
+            text: 'Ext.Anim.run();',
+            handler: function() {
+
+                //create a simple component
+                var cmp = Ext.Viewport.add({
+                    xtype: 'container',
+                    style: 'background: #F00;',
+                    width: 300,
+                    height: 300,
+                    centered: true
+                });
+                
+                //one animation
+                Ext.Anim.run(cmp.element, 'fade', {
+                    out: false,
+                    duration: 2000,
+                    after: function() {
+                        
+                        //other animation
+                        Ext.Anim.run(cmp.element, 'slide', {
+                            out: true,
+                            duration: 1000,
+                            after: function() {
+                                cmp.destroy();
+                            }
+                        });
+                    }
+                });
+            }
+        });        
     }
 });
 </script>
