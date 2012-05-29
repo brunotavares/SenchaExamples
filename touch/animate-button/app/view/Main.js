@@ -1,7 +1,9 @@
 Ext.define('Example.view.Main', {
     extend: 'Ext.Container',
     config: {
-        html: 'Example component animations',
+        padding: 10,
+        html: 'The title component has a slide up animation, and the ' +
+                'button on the right has a fade animation with 500ms delay',
         items: [{
             xtype: 'toolbar',
             docked: 'top',
@@ -18,6 +20,12 @@ Ext.define('Example.view.Main', {
                 iconMask: true,
                 hidden: true
             }]
+        },{
+            xtype: 'button',
+            text: 'Refresh to Animate!',
+            handler: function() {
+                location.reload();
+            }
         }]
     },
     
