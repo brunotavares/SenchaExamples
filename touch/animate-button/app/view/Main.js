@@ -7,12 +7,12 @@ Ext.define('Example.view.Main', {
         items: [{
             xtype: 'toolbar',
             docked: 'top',
-            items: [{
-                xtype: 'title',
+            title: {
                 title: 'Example Animation',
                 centered: true,
                 hidden: true
-            },{
+            },
+            items: [{
                 xtype: 'spacer'
             },{
                 iconCls: 'action',
