@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html manifest = ""lang = "en-US" >
+<head>
+<meta charset="UTF-8">
+<title>Advanced Custom Animations with Touch 2 | Sencha Examples | extdesenv.com</title>
+	
+<!-- Sencha Touch 2.0.1.1 CDN -->
+<link rel="stylesheet" type="text/css " href="http://extjs.cachefly.net/touch/sencha-touch-2.0.1/resources/css/sencha-touch.css" />
+<script type = "text/javascript" src="http://extjs.cachefly.net/touch/sencha-touch-2.0.1/sencha-touch-all.js"></script>
+	
+<!-- App Code -->
+<script type="text/javascript" src="lib/fx/ScaleFade.js"></script>
+<script type="text/javascript" src="lib/fx/ScaleFadeOut.js"></script>
+<script type="text/javascript" src="lib/fx/layout/ScaleFade.js"></script>
+<script type="text/javascript ">
+Ext.setup({
+    onReady: function() {
+		
+		//create a tabpanel with scalefade layout animation
+		Ext.Viewport.add({
+			xtype: 'tabpanel',
+			layout: {
+            	type: 'card',
+            	animation: 'scalefade'
+        	},
+			defaults: {
+				padding: 20
+			},
+			items: [{
+				title: 'Card 1',
+				html: 'Card 1',
+				style: 'background: #FFF;',
+				
+				items: [{
+					xtype: 'button',
+					text: 'ScaleFade as individual show/hide() animation',
+					handler: animateComponent
+				}]
+			},{
+				title: 'Card 2',
+				html: 'Card 2',
+				style: 'background: #CCC;'
+			},{
+				title: 'Card 3',
+				html: 'Card 3',
+				style: 'background: #777;'
+			}]
+		});
+		
+		//create a panel with scalefade animation on show and hide
+		function animateComponent() {
+			var panel = Ext.Viewport.add({
+				xtype: 'panel',
+				width: 400,
+				height: 200,
+				centered: true,
+				modal: true,
+				hideOnMaskTap: true,
+				hidden: true,
+				showAnimation: 'scalefade',
+				hideAnimation: {
+					type: 'scalefade',
+					out: true
+				},
+				html: 'Tap the mask to hide'
+			});
+			
+			panel.show();
+		}
+    }
+});
+</script>
+</head>
+<body>
+</body>
+</html>
