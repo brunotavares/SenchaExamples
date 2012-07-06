@@ -1,0 +1,71 @@
+/* line 2, ../sass/icons.scss */
+.ico-location {
+  background-image: url("../images/location.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 2, ../sass/icons.scss */
+  .ico-location {
+    background-image: url("../images/location@2x.png");
+    background-size: 22px 22px;
+  }
+}
+
+/* line 2, ../sass/icons.scss */
+.ico-message {
+  background-image: url("../images/message.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 2, ../sass/icons.scss */
+  .ico-message {
+    background-image: url("../images/message@2x.png");
+    background-size: 22px 22px;
+  }
+}
+
+/* line 2, ../sass/icons.scss */
+.ico-music {
+  background-image: url("../images/music.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 2, ../sass/icons.scss */
+  .ico-music {
+    background-image: url("../images/music@2x.png");
+    background-size: 22px 22px;
+  }
+}
+
+/* line 2, ../sass/icons.scss */
+.ico-photo {
+  background-image: url("../images/photo.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 2, ../sass/icons.scss */
+  .ico-photo {
+    background-image: url("../images/photo@2x.png");
+    background-size: 22px 22px;
+  }
+}
+
+/* line 2, ../sass/icons.scss */
+.ico-profile {
+  background-image: url("../images/profile.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 2, ../sass/icons.scss */
+  .ico-profile {
+    background-image: url("../images/profile@2x.png");
+    background-size: 22px 22px;
+  }
+}
+
+/* line 2, ../sass/icons.scss */
+.ico-sleep {
+  background-image: url("../images/sleep.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 2, ../sass/icons.scss */
+  .ico-sleep {
+    background-image: url("../images/sleep@2x.png");
+    background-size: 22px 22px;
+  }
+}

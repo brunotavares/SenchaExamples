@@ -1,0 +1,17 @@
+@mixin icon($icon) {
+    .ico-#{$icon} {
+        background-image: url('../images/' + $icon + '.png');
+        @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+            background-image: url('../images/' + $icon + '@2x.png');
+            background-size: 22px 22px;
+        }
+    }
+    
+}
+
+@include icon(location);
+@include icon(message);
+@include icon(music);
+@include icon(photo);
+@include icon(profile);
+@include icon(sleep);
