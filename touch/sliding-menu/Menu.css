@@ -1,0 +1,51 @@
+.viewport-inner {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.mainmenu {
+  background: #1d1d1d;
+}
+
+.mainmenu .divider {
+  font-size: 0.7em;
+  color: #a3a3a3;
+  padding: 0.2em 1em;
+  border-bottom: 1px solid #161616;
+  background: #1d1d1d;
+}
+
+.x-button-mainmenu, .x-button-login {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background-image: none;
+  background-color: #262626;
+  border-top: 1px solid #313131;
+  border-bottom: 1px solid #161616;
+  border-width: 1px 0;
+  height: 3em;
+}
+
+.x-button-mainmenu, .x-button-mainmenu .x-button-label, .x-button-mainmenu .x-badge, .x-button-login, .x-button-login .x-button-label, .x-button-login .x-badge {
+  color: #FFF;
+  text-align: left;
+}
+
+.x-button-mainmenu.x-button-pressing, .x-button-login.x-button-pressing {
+  background-color: #000;
+  background-image: none;
+}
+
+.x-button-mainmenu.x-button-pressing, .x-button-mainmenu.x-button-pressing .x-button-label, .x-button-mainmenu.x-button-pressing .x-badge, .x-button-login.x-button-pressing, .x-button-login.x-button-pressing .x-button-label, .x-button-login.x-button-pressing .x-badge {
+  color: #888;
+}
